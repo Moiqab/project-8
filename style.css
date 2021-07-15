@@ -79,6 +79,26 @@ input[type="text"]{
     opacity: 0;
     transition: opacity 0.5s ease-in;
 }
+.selected-meal-detail{
+    width: 70%;
+}
+
+.selected-meal-detail img{
+    width: 50%;
+    border-radius: 5px;
+
+}
+.selected-meal-info{
+    margin: 0;
+    font-size: 26px;
+}
+.selected-meal-instruction  li{
+ margin-bottom: 10px;
+ list-style-type: lower-roman;   
+}
+.selected-meal-instruction h3{
+    font-size: 26px;
+}
 .meal:hover .meal-info{
     opacity: 1;
 }
